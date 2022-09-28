@@ -1,0 +1,54 @@
+.header{
+ background-color:#182C61 ;
+}
+.header .logo img{
+ width: 60px;
+ padding-top: 10px;
+}
+.menu{
+
+}
+.menu ul{
+  margin-bottom: 0%;
+}
+.menu ul li{
+ display: inline-block;
+ padding: 15px 0px;
+}
+.menu ul li a {
+ display: inline-block;
+ text-decoration: none;
+ color: white;
+ padding:0px 15px;
+ transition: all 0.7s ease-in-out;
+}
+ .menu ul li a:hover{
+  color:red;
+  transform:scale(.8); 
+}
+/* banner start */
+.banner{
+  background-image: linear-gradient(#4400ff92,#00cddf7b,#00ee106b),url("https://th.bing.com/th/id/R.741185d5576f943a711d7ed2f448c1a9?rik=b8E9GwjddyCbfg&riu=http%3a%2f%2fdemo.bestdnnskins.com%2fportals%2f6%2finnerpage%2fbanner3_04.jpg&ehk=MWhtfetlx9k8Ys3FhwNk%2f49TGZlL06lOEM8VeaVM9iQ%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0px;
+}
+.banner h1{
+  color: white;
+  margin-bottom: 15px;
+}
+.banner p{
+  width: 900px;
+  margin: auto;
+  color: white;
+  margin-bottom: 20px;
+}
+/* ourteam start */
+.ourteam{
+  background-color: rgb(180, 221, 248);
+}
+/* about start */
+.about{
+  background-color: rgb(195, 250, 250);
+}

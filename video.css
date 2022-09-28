@@ -1,0 +1,96 @@
+.header {
+  background-color: #f368e0;
+}
+.header .logo img {
+  width: 60px;
+  padding-top: 10px;
+}
+.menu {
+}
+.menu ul {
+  margin-bottom: 0%;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 15px 0px;
+  margin-left: -4px;
+  border-right: 1px solid white;
+  transition: all 0.7s ease-in-out;
+}
+.menu ul li:hover {
+  background-color: #55e6c1;
+}
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+
+  transition: all 0.7s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: red;
+}
+
+.banner {
+  background-image: url("https://th.bing.com/th/id/OIP.qlp1o7Kl_VeE2g3V7RAVQAHaDt?pid=ImgDet&rs=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0px;
+}
+.banner h1 {
+  width: 550px;
+  margin: auto;
+  background-color: #55e6c1;
+  color: lightcoral;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.banner h2 {
+  background-color: #f368e0;
+  width: 650px;
+  margin: auto;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.about {
+  background-color: #d3f5ec;
+}
+.about p {
+  width: 700px;
+  margin: auto;
+}
+.gallery {
+  background-color: rgb(243, 240, 236);
+}
+.list ul li {
+  background-color: #eef4f6;
+  text-align: center;
+  list-style: none;
+  border: 1px solid #dde;
+  font-size: 22px;
+  padding: 2.2px;
+  margin-top: 5px;
+}
+.footer {
+  background-color: #576574;
+}
+.sub-menu {
+}
+.sub-menu ul {
+  margin-bottom: 0%;
+}
+.sub-menu ul li {
+  display: inline-block;
+  padding: 15px 0px;
+}
+.sub-menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+  transition: all 0.7s ease-in-out;
+}
